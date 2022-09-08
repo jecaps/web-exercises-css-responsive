@@ -16,11 +16,31 @@
   --accent-2: #50fa7b;
 }
 
+.heart {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --dark: #acacac;
     --medium: #b3b3ae;
     --light: #f8f8f2;
     --contrast-text: #282a36;
+  }
+}
+
+@media (min-width: 600px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media (orientation: landscape) {
+  .heart {
+    display: block;
   }
 }
