@@ -20,10 +20,3 @@
 .header__headline--sub {
   font-size: 1.25rem;
 }
-
-@media (prefers-color-scheme: light) {
-  .header {
-    background-color: #acacac;
-    color: #282a36;
-  }
-}
